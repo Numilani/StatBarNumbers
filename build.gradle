@@ -9,7 +9,7 @@ plugins {
 }
 
 def buildDate = ZonedDateTime.now(ZoneOffset.UTC)
-version = String.format("%d.%d.%d-%d", buildDate.year, buildDate.monthValue, buildDate.dayOfMonth, buildDate.toLocalTime().toSecondOfDay())
+version = String.format("${release_version}.%d", buildDate.toLocalTime().toSecondOfDay())
 
 ext {
     // hytaleHome = "${System.getProperty("user.home")}/AppData/Roaming/Hytale" //NOTE: windows only
