@@ -1,0 +1,24 @@
+{
+    "Group": "StatBarNumbers",
+    "Name": "StatBarNumbers",
+    "Version": "1.0.0",
+    "Description": "Show HP/Stamina as numbers above the bars!",
+    "Authors": [
+        {
+            "Name": "Numilani",
+            "Url": "https://github.com/numilani"
+        }
+    ],
+    "Website": "https://github.com/numilani/StatBarNumbers",
+    "ServerVersion": "*",
+    "Dependencies": {
+        "Hytale:EntityModule": "*",
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "me.numilani.statbarnumbers.Main",
+    "IncludesAssetPack": true
+}
