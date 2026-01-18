@@ -34,8 +34,8 @@ public class StatUiUpdateTickingSystem extends EntityTickingSystem<EntityStore> 
         playerRef,
         (int) stats.get(DefaultEntityStatTypes.getHealth()).get(),
         (int) stats.get(DefaultEntityStatTypes.getHealth()).getMax(),
-        (int) stats.get(DefaultEntityStatTypes.getStamina()).get(),
-        (int) stats.get(DefaultEntityStatTypes.getStamina()).getMax()));
+        stats.get(DefaultEntityStatTypes.getStamina()).get(),
+        stats.get(DefaultEntityStatTypes.getStamina()).getMax()));
   }
 
 }

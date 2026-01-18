@@ -32,7 +32,7 @@ LayoutMode: Left;
 Background: #212e3d88;
     Label #StaminaStatCurrent {
       Style: (TextColor: #EDA233, RenderBold: true);
-      Anchor: (MaxWidth: 30);
+      Anchor: (MaxWidth: 40);
       Text: "999";
     }
     Label #StaminaDivider {
